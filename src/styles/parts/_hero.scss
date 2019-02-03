@@ -1,0 +1,28 @@
+.d-hero__wrapper {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+
+  path {
+    stroke: #fff;
+    stroke-width: 4;
+    fill: rgba(255,255,255,0.2);
+    stroke-dasharray:388;
+    stroke-dashoffset:388;
+    // animation: animation 3s infinite alternate;
+}
+
+
+@keyframes animation {
+  0% {
+    stroke-dashoffset:388;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+}
