@@ -1,0 +1,52 @@
+.d-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+
+  &__lefttext {
+    padding: 40px;
+
+    & > * {
+      margin-left: 30px;
+    }
+  }
+
+  &__righttext {
+    padding: 40px;
+    transition: 1s ease;
+
+    &:last-child {
+      transition: 1s ease;
+    }
+
+    &:last-child:hover .d-header__hiddenMeny {
+      display: block;
+    }
+
+    & > * {
+      margin-left: 30px;
+    }
+  }
+
+  &__hiddenMeny {
+     margin-right:30px;
+    background-color: tomato;
+    right: 0;
+    transition: 1s ease;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    z-index: 1;
+  }
+}

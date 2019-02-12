@@ -1,0 +1,22 @@
+.d-index {
+  &__wrapper {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .d-index__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+
+    &-item {
+      width: 50%;
+      border: 1px solid red;
+      padding: 60px;
+    }
+  }
+}

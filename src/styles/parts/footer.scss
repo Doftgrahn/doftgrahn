@@ -1,0 +1,27 @@
+.d-footer {
+  margin: 20px;
+  display: flex;
+  min-height: 400px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    // border: 5px solid tomato;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__socialmedia-icons {
+    height: 40px;
+    width: 40px;
+    border: 1px solid tomato;
+  }
+}
